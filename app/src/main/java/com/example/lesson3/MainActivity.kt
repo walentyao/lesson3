@@ -42,12 +42,12 @@ class MainActivity : AppCompatActivity() {
             val intent = CheatActivity.newIntent(this@MainActivity, quizViewModel.currentQuestionAnswer)
             resultLauncher.launch(intent)
         }
-        btnTrue.setOnClickListener{
-            checkAnswer(True)
-        }
-        btnFalse.setOnClickListener{
-            checkAnswer(False)
-        }
-        nextButton.set
+//        btnTrue.setOnClickListener{
+//            checkAnswer(True)
+//        }
+//        btnFalse.setOnClickListener{
+//            checkAnswer(False)
+//        }
+//        nextButton.set
     }
 }
